@@ -10,7 +10,7 @@
     
     <meta name="author" content="ntno"> 
     
-    <link rel="canonical" href="https://ntno.github.io/mkdocs-terminal-example-pymdown-pygments/sample-languages/python/"><link rel="icon" type="image/png" sizes="192x192" href="../../img/android-chrome-192x192.png" />
+    <link rel="canonical" href="https://ntno.github.io/mkdocs-terminal-example-pymdown-pygments/sample-languages/cobol/"><link rel="icon" type="image/png" sizes="192x192" href="../../img/android-chrome-192x192.png" />
 <link rel="icon" type="image/png" sizes="512x512" href="../../img/android-chrome-512x512.png" />
 <link rel="apple-touch-icon" sizes="180x180" href="../../img/apple-touch-icon.png" />
 <link rel="shortcut icon" type="image/png" sizes="48x48" href="../../img/favicon.ico" />
@@ -20,7 +20,7 @@
 
     
  
-<title>Python - mkdocs-terminal theme with PyMdown and Pygments</title>
+<title>Cobol - mkdocs-terminal theme with PyMdown and Pygments</title>
 
 
 <link href="../../css/fontawesome/css/fontawesome.min.css" rel="stylesheet">
@@ -194,11 +194,9 @@
                 <li class="terminal-mkdocs-side-nav-li-ul-li">
     
         
-        
-            <a class="
+        <span class="
 
-    terminal-mkdocs-side-nav-item" href="../cobol/">Cobol</a>
-        
+    terminal-mkdocs-side-nav-item--active">Cobol</span>
     
     </li>
             
@@ -232,9 +230,11 @@
                 <li class="terminal-mkdocs-side-nav-li-ul-li">
     
         
-        <span class="
+        
+            <a class="
 
-    terminal-mkdocs-side-nav-item--active">Python</span>
+    terminal-mkdocs-side-nav-item" href="../python/">Python</a>
+        
     
     </li>
             
@@ -250,66 +250,41 @@
 <nav>
     <ul>
         <li><a href="#block-highlighting">Block Highlighting</a></li>
-        <li><a href="#block-markdown">Block Markdown</a></li><li><a href="#inline-hilighting">Inline Hilighting</a></li>
-        <li><a href="#inline-markdown">Inline Markdown</a></li>
+        <li><a href="#block-markdown">Block Markdown</a></li>
     </ul>
 </nav>
 </aside>
             <main id="terminal-mkdocs-main-content">
 <section id="mkdocs-terminal-content">
-    <h1 id="python">Python<a class="headerlink" href="#python" title="Anchor link to this section for reference">#</a></h1>
+    <h1 id="cobol">Cobol<a class="headerlink" href="#cobol" title="Anchor link to this section for reference">#</a></h1>
 <h2 id="block-highlighting">Block Highlighting<a class="headerlink" href="#block-highlighting" title="Anchor link to this section for reference">#</a></h2>
 <p>Language highlighting can be enabled with PyMdown and Pygments by adding a <a href="https://pygments.org/languages/">supported programming language</a> name directly after the first <code>```</code> grouping in a Markdown code block:</p>
-<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%;"><span></span><code><span style="color: #3D7B7B; font-style: italic"># calculate factorial of n</span>
-<span style="color: #008000; font-weight: bold">def</span> <span style="color: #0000FF">fact</span>(n):
-
-    <span style="color: #3D7B7B; font-style: italic"># no work required</span>
-    <span style="color: #008000; font-weight: bold">if</span> n <span style="color: #666666">==</span> <span style="color: #666666">1</span> <span style="color: #AA22FF; font-weight: bold">or</span> n <span style="color: #666666">==</span> <span style="color: #666666">0</span>:
-        <span style="color: #008000; font-weight: bold">return</span> <span style="color: #666666">1</span>
-
-    <span style="color: #3D7B7B; font-style: italic"># minimum amount of work</span>
-    <span style="color: #008000; font-weight: bold">return</span> n <span style="color: #666666">*</span> fact(n <span style="color: #666666">-</span> <span style="color: #666666">1</span>)
-
-
-<span style="color: #008000; font-weight: bold">if</span> <span style="color: #19177C">__name__</span><span style="color: #666666">==</span><span style="color: #BA2121">&quot;__main__&quot;</span>:
-    n <span style="color: #666666">=</span> <span style="color: #666666">5</span>
-    factorial <span style="color: #666666">=</span> fact(n)
-    <span style="color: #008000">print</span>(<span style="color: #BA2121">f&quot;</span><span style="color: #A45A77; font-weight: bold">{</span>n<span style="color: #A45A77; font-weight: bold">}</span><span style="color: #BA2121">! = </span><span style="color: #A45A77; font-weight: bold">{</span>factorial<span style="color: #A45A77; font-weight: bold">}</span><span style="color: #BA2121">&quot;</span>)
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%;"><span></span><code><span style="color: #3D7B7B; font-style: italic">      </span><span style="color: #bbbbbb">      </span><span style="color: #3D7B7B; font-style: italic">*&gt; setup the identification division</span>
+<span style="color: #3D7B7B; font-style: italic">      </span><span style="color: #bbbbbb">      </span><span style="color: #008000; font-weight: bold">IDENTIFICATION</span><span style="color: #bbbbbb"> </span><span style="color: #008000; font-weight: bold">DIVISION</span>.
+<span style="color: #3D7B7B; font-style: italic">      </span><span style="color: #bbbbbb">      </span><span style="color: #3D7B7B; font-style: italic">*&gt; setup the program id</span>
+<span style="color: #3D7B7B; font-style: italic">      </span><span style="color: #bbbbbb">      </span><span style="color: #008000; font-weight: bold">PROGRAM-ID</span>.<span style="color: #bbbbbb"> </span><span style="color: #19177C">HELLO</span>.
+<span style="color: #3D7B7B; font-style: italic">      </span><span style="color: #bbbbbb">      </span><span style="color: #3D7B7B; font-style: italic">*&gt; setup the procedure division</span>
+<span style="color: #3D7B7B; font-style: italic">      </span><span style="color: #bbbbbb">      </span><span style="color: #008000; font-weight: bold">PROCEDURE</span><span style="color: #bbbbbb"> </span><span style="color: #008000; font-weight: bold">DIVISION</span>.
+<span style="color: #3D7B7B; font-style: italic">      </span><span style="color: #bbbbbb">        </span><span style="color: #3D7B7B; font-style: italic">*&gt; print a string</span>
+<span style="color: #3D7B7B; font-style: italic">      </span><span style="color: #bbbbbb">        </span><span style="color: #008000; font-weight: bold">DISPLAY </span><span style="color: #BA2121">&#39;HELLO WORLD&#39;</span>.
+<span style="color: #3D7B7B; font-style: italic">      </span><span style="color: #bbbbbb">      </span><span style="color: #3D7B7B; font-style: italic">*&gt; end our program</span>
+<span style="color: #3D7B7B; font-style: italic">      </span><span style="color: #bbbbbb">      </span><span style="color: #008000; font-weight: bold">STOP</span><span style="color: #bbbbbb"> </span><span style="color: #008000">RUN</span>.
 </code></pre></div>
 <h3 id="block-markdown">Block Markdown<a class="headerlink" href="#block-markdown" title="Anchor link to this section for reference">#</a></h3>
-<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%;"><span></span><code>```python
-# calculate factorial of n
-def fact(n):
-
-    # no work required
-    if n == 1 or n == 0:
-        return 1
-
-    # minimum amount of work
-    return n * fact(n - 1)
-
-
-if __name__==&quot;__main__&quot;:
-    n = 5
-    factorial = fact(n)
-    print(f&quot;{n}! = {factorial}&quot;)
-
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%;"><span></span><code>```cobol
+            *&gt; setup the identification division
+            IDENTIFICATION DIVISION.
+            *&gt; setup the program id
+            PROGRAM-ID. HELLO.
+            *&gt; setup the procedure division
+            PROCEDURE DIVISION.
+              *&gt; print a string
+              DISPLAY &#39;HELLO WORLD&#39;.
+            *&gt; end our program
+            STOP RUN.
 ```
 </code></pre></div>
-<p>Script adapted from Palistha Singh's <a href="https://www.freecodecamp.org/news/what-is-recursion/">"How Does Recursion Work? Explained with Code Examples"</a></p>
-<h2 id="inline-hilighting">Inline Hilighting<a class="headerlink" href="#inline-hilighting" title="Anchor link to this section for reference">#</a></h2>
-<p>Inline highlighting can be added by prefixing the code snippet with three colons and the name of the <a href="https://pygments.org/languages/">supported programming language</a>:</p>
-<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%;"><span></span><code>```:::LANGUAGE some code snippet```
-or
-`:::LANGUAGE some code snippet`
-</code></pre></div>
-<p><strong>Example:</strong></p>
-<p>The <code class="highlight"><span style="color: #008000">print</span>()</code> function can be used to print content to STDOUT:
-<code class="highlight"><span style="color: #008000">print</span>(<span style="color: #BA2121">&quot;Hello World&quot;</span>)</code>.</p>
-<h3 id="inline-markdown">Inline Markdown<a class="headerlink" href="#inline-markdown" title="Anchor link to this section for reference">#</a></h3>
-<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%;"><span></span><code>The `:::python print()` function can be used to print content to STDOUT:
-```:::python print(&quot;Hello World&quot;)```.
-</code></pre></div>
+<p>Script adapted from Yvan Scher's <a href="https://medium.com/@yvanscher/7-cobol-examples-with-explanations-ae1784b4d576">"7 cobol examples with explanations"</a></p>
 </section>
 
             </main>
@@ -323,8 +298,9 @@ or
         </div>
         <div id="terminal-mkdocs-footer-prev-next">
             <nav class="btn-group">
-                <a href="../javascript/" title="Javascript">Previous</a>
-                
+                <a href="../bash/" title="Bash">Previous</a>
+                |
+                <a href="../javascript/" title="Javascript">Next</a>
             </nav>
         </div>
     </div>

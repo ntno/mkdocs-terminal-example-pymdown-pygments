@@ -2,30 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://ntno.github.io/mkdocs-terminal-example-pymdown-pygments/</loc>
-         <lastmod>2024-12-23</lastmod>
+         <lastmod>2024-12-24</lastmod>
     </url>
     <url>
          <loc>https://ntno.github.io/mkdocs-terminal-example-pymdown-pygments/sample-languages/bash-base/</loc>
-         <lastmod>2024-12-23</lastmod>
+         <lastmod>2024-12-24</lastmod>
     </url>
     <url>
          <loc>https://ntno.github.io/mkdocs-terminal-example-pymdown-pygments/sample-languages/bash/</loc>
-         <lastmod>2024-12-23</lastmod>
+         <lastmod>2024-12-24</lastmod>
+    </url>
+    <url>
+         <loc>https://ntno.github.io/mkdocs-terminal-example-pymdown-pygments/sample-languages/cobol-base/</loc>
+         <lastmod>2024-12-24</lastmod>
+    </url>
+    <url>
+         <loc>https://ntno.github.io/mkdocs-terminal-example-pymdown-pygments/sample-languages/cobol/</loc>
+         <lastmod>2024-12-24</lastmod>
     </url>
     <url>
          <loc>https://ntno.github.io/mkdocs-terminal-example-pymdown-pygments/sample-languages/javascript-base/</loc>
-         <lastmod>2024-12-23</lastmod>
+         <lastmod>2024-12-24</lastmod>
     </url>
     <url>
          <loc>https://ntno.github.io/mkdocs-terminal-example-pymdown-pygments/sample-languages/javascript/</loc>
-         <lastmod>2024-12-23</lastmod>
+         <lastmod>2024-12-24</lastmod>
     </url>
     <url>
          <loc>https://ntno.github.io/mkdocs-terminal-example-pymdown-pygments/sample-languages/python-base/</loc>
-         <lastmod>2024-12-23</lastmod>
+         <lastmod>2024-12-24</lastmod>
     </url>
     <url>
          <loc>https://ntno.github.io/mkdocs-terminal-example-pymdown-pygments/sample-languages/python/</loc>
-         <lastmod>2024-12-23</lastmod>
+         <lastmod>2024-12-24</lastmod>
     </url>
 </urlset>
